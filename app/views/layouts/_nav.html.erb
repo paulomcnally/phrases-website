@@ -1,0 +1,24 @@
+<nav>
+  <div class="container">
+    <div class="nav-wrapper">
+      <%= link_to root_path, :class=>"brand-logo" do %>
+      Frases
+      <% end %>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <%= link_to(cristian_path) do %>
+          CRISTIANAS
+          <% end %>
+        </li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li>
+          <%= link_to(cristian_path) do %>
+          CRISTIANAS
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

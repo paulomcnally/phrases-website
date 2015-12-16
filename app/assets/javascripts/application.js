@@ -12,5 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require materialize-sprockets
+//= require RRSSB
 //= require_tree .
+
+$(document).on('ready', function() {
+  $(".button-collapse").sideNav();
+});
